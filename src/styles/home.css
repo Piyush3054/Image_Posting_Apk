@@ -1,0 +1,30 @@
+.home-container {
+    height: 99vh;
+}
+
+.post-container {
+    padding: 3%;
+    height: 91%;
+    flex: 0.90;
+    overflow-y: auto;
+}
+
+.post-container::-webkit-scrollbar {
+    display: none;
+}
+
+.option-container {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;    height: 9%;
+    border-radius: 3vw 3vw 0vw 0vw;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 36%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-left: 4vh;
+    padding-right: 4vh;
+}
